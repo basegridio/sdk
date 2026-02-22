@@ -1,0 +1,42 @@
+{
+  "name": "@basegrid-io/core",
+  "version": "1.0.0",
+  "description": "BaseGrid SDK - Memory Infrastructure for AI Agents | Sub-200ms Retrieval",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basegrid-io/sdk.git",
+    "directory": "sdk-node"
+  },
+  "homepage": "https://basegrid.io",
+  "bugs": "https://github.com/basegrid-io/sdk/issues",
+  "keywords": [
+    "ai",
+    "memory",
+    "agents",
+    "llm",
+    "vector-database",
+    "embeddings",
+    "rag",
+    "ai-memory",
+    "basegrid"
+  ],
+  "author": "BaseGrid <hello@basegrid.io>",
+  "license": "Apache-2.0",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "tsx test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
