@@ -39,7 +39,7 @@ export class BaseGrid {
 
     constructor(config: BaseGridConfig) {
         this.apiKey = config.apiKey
-        this.baseUrl = config.baseUrl || 'http://localhost:3000'
+        this.baseUrl = config.baseUrl || 'https://api.basegrid.io'
     }
 
     private async request(endpoint: string, options: RequestInit = {}): Promise<any> {
