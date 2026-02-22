@@ -4,3 +4,4 @@ dist/
 .npmrc
 *.env.local
 .DS_Store
+build/

@@ -2,8 +2,8 @@
   "name": "@basegrid-io/core",
   "version": "1.0.0",
   "description": "BaseGrid SDK - Memory Infrastructure for AI Agents | Sub-200ms Retrieval",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "type": "module",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "author": "BaseGrid <hello@basegrid.io>",
   "license": "Apache-2.0",
   "files": [
-    "dist",
+    "build",
     "README.md",
     "LICENSE"
   ],
